@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questão 5 (V2)</title>
+	<meta charset=utf-8>
+	<link rel=stylesheet href=../style.css>
+	<script type="text/javascript" defer src=../scripts/automaton.js></script>
+	<script type="text/javascript" defer src=../scripts/script.js></script>
+</head>
+<body>
+	<div class=wrapper>
+		<h1>NFA</h1>
+		<div class=table id=tableNFA>
+			<div class=row>
+				<div></div>
+				<div>0</div>
+				<div>1</div>
+				<div>&</div>
+			</div>
+			<div class=row>
+				<div data-inicial>q1</div>
+				<div>q2,q6</div>
+				<div></div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div>q2</div>
+				<div></div>
+				<div></div>
+				<div>q3</div>
+			</div>
+			<div class=row>
+				<div>q3</div>
+				<div>q4</div>
+				<div></div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div>q4</div>
+				<div></div>
+				<div>q5</div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div>q5</div>
+				<div>q2,q6</div>
+				<div></div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div data-accept>q6</div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<div class=svg>
+			<img src="../svgs/questao5.svg">
+		</div>
+		<button onclick="convert('enfa')">Converter</button>
+		<div class=table id=tableDFA></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<svg width="600" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="83.5" cy="51.5" rx="30" ry="30"/>
+	<text x="76.5" y="57.5" font-family="Times New Roman" font-size="20">A</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="210.5" cy="51.5" rx="30" ry="30"/>
+	<text x="203.5" y="57.5" font-family="Times New Roman" font-size="20">B</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="350.5" cy="51.5" rx="30" ry="30"/>
+	<text x="343.5" y="57.5" font-family="Times New Roman" font-size="20">C</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="493.5" cy="51.5" rx="30" ry="30"/>
+	<text x="486.5" y="57.5" font-family="Times New Roman" font-size="20">D</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="493.5" cy="51.5" rx="24" ry="24"/>
+	<polygon stroke="black" stroke-width="1" points="113.5,51.5 180.5,51.5"/>
+	<polygon fill="black" stroke-width="1" points="180.5,51.5 172.5,46.5 172.5,56.5"/>
+	<text x="142.5" y="42.5" font-family="Times New Roman" font-size="20">1</text>
+	<polygon stroke="black" stroke-width="1" points="240.5,51.5 320.5,51.5"/>
+	<polygon fill="black" stroke-width="1" points="320.5,51.5 312.5,46.5 312.5,56.5"/>
+	<text x="275.5" y="42.5" font-family="Times New Roman" font-size="20">0</text>
+	<polygon stroke="black" stroke-width="1" points="380.5,51.5 463.5,51.5"/>
+	<polygon fill="black" stroke-width="1" points="463.5,51.5 455.5,46.5 455.5,56.5"/>
+	<text x="417.5" y="42.5" font-family="Times New Roman" font-size="20">0</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 520.297,38.275 A 22.5,22.5 0 1 1 520.297,64.725"/>
+	<text x="566.5" y="57.5" font-family="Times New Roman" font-size="20">0,1</text>
+	<polygon fill="black" stroke-width="1" points="520.297,64.725 523.83,73.473 529.708,65.382"/>
+	<polygon stroke="black" stroke-width="1" points="15.5,51.5 53.5,51.5"/>
+	<polygon fill="black" stroke-width="1" points="53.5,51.5 45.5,46.5 45.5,56.5"/>
+</svg>

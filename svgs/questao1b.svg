@@ -1,0 +1,25 @@
+<svg width="550" height="150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="78.5" cy="51.5" rx="30" ry="30"/>
+	<text x="71.5" y="57.5" font-family="Times New Roman" font-size="20">A</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="210.5" cy="51.5" rx="30" ry="30"/>
+	<text x="203.5" y="57.5" font-family="Times New Roman" font-size="20">B</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="350.5" cy="51.5" rx="30" ry="30"/>
+	<text x="343.5" y="57.5" font-family="Times New Roman" font-size="20">C</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="493.5" cy="51.5" rx="30" ry="30"/>
+	<text x="486.5" y="57.5" font-family="Times New Roman" font-size="20">D</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="493.5" cy="51.5" rx="24" ry="24"/>
+	<polygon stroke="black" stroke-width="1" points="108.5,51.5 180.5,51.5"/>
+	<polygon fill="black" stroke-width="1" points="180.5,51.5 172.5,46.5 172.5,56.5"/>
+	<text x="139.5" y="42.5" font-family="Times New Roman" font-size="20">1</text>
+	<polygon stroke="black" stroke-width="1" points="240.5,51.5 320.5,51.5"/>
+	<polygon fill="black" stroke-width="1" points="320.5,51.5 312.5,46.5 312.5,56.5"/>
+	<text x="275.5" y="42.5" font-family="Times New Roman" font-size="20">0</text>
+	<polygon stroke="black" stroke-width="1" points="380.5,51.5 463.5,51.5"/>
+	<polygon fill="black" stroke-width="1" points="463.5,51.5 455.5,46.5 455.5,56.5"/>
+	<text x="417.5" y="42.5" font-family="Times New Roman" font-size="20">0</text>
+	<polygon stroke="black" stroke-width="1" points="10.5,51.5 48.5,51.5"/>
+	<polygon fill="black" stroke-width="1" points="48.5,51.5 40.5,46.5 40.5,56.5"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 91.725,78.297 A 22.5,22.5 0 1 1 65.275,78.297"/>
+	<text x="66.5" y="140.5" font-family="Times New Roman" font-size="20">0,1</text>
+	<polygon fill="black" stroke-width="1" points="65.275,78.297 56.527,81.83 64.618,87.708"/>
+</svg>

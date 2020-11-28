@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questão 6 (V2)</title>
+	<meta charset=utf-8>
+	<link rel=stylesheet href=../style.css>
+	<script type="text/javascript" defer src=../scripts/automaton.js></script>
+	<script type="text/javascript" defer src=../scripts/script.js></script>
+</head>
+<body>
+	<div class=wrapper>
+		<h1>NFA</h1>
+		<div class=table id=tableNFA>
+			<div class=row>
+				<div></div>
+				<div>a</div>
+				<div>b</div>
+				<div>c</div>
+				<div>&</div>
+			</div>
+			<div class=row>
+				<div data-inicial>p</div>
+				<div></div>
+				<div>q</div>
+				<div>r</div>
+				<div>q,r</div>
+			</div>
+			<div class=row>
+				<div>q</div>
+				<div>p</div>
+				<div>r</div>
+				<div>q</div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div data-accept>r</div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<div class=svg>
+			<img src="../svgs/questao6.svg">
+		</div>
+		<button onclick="convert('enfa')">Converter</button>
+		<div class=table id=tableDFA></div>
+	</div>
+</body>
+</html>

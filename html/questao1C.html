@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questão 1C (V2)</title>
+	<meta charset=utf-8>
+	<link rel=stylesheet href=../style.css>
+	<script type="text/javascript" defer src=../scripts/automaton.js></script>
+	<script type="text/javascript" defer src=../scripts/script.js></script>
+</head>
+<body>
+	<div class=wrapper>
+		<h1>NFA</h1>
+		<div class=svg>
+			<img src="../svgs/questao1c.svg">
+		</div>
+		<div class=table id=tableNFA>
+			<div class=row>
+				<div></div>
+				<div>0</div>
+				<div>1</div>
+			</div>
+			<div class=row>
+				<div data-inicial>A</div>
+				<div>E</div>
+				<div>B,E</div>
+			</div>
+			<div class=row>
+				<div>B</div>
+				<div>C</div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div>C</div>
+				<div>D</div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div>D</div>
+				<div>D</div>
+				<div>D</div>
+			</div>
+			<div class=row>
+				<div>E</div>
+				<div>E</div>
+				<div>E,F</div>
+			</div>
+			<div class=row>
+				<div>F</div>
+				<div>G</div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div>G</div>
+				<div>H</div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div data-accept>H</div>
+				<div></div>
+				<div></div>
+			</div>
+
+		</div>
+		<button onclick="convert('nfa')">Converter</button>
+		<div class=table id=tableDFA></div>
+	</div>
+</body>
+</html>

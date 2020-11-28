@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questão 1A (V2)</title>
+	<meta charset=utf-8>
+	<link rel=stylesheet href=../style.css>
+	<script type="text/javascript" defer src=../scripts/automaton.js></script>
+	<script type="text/javascript" defer src=../scripts/script.js></script>
+</head>
+<body>
+	<div class=wrapper>
+		<h1>NFA</h1>
+		<div class=svg>
+			<img src="../svgs/questao1a.svg">
+		</div>
+		<div class=table id=tableNFA>
+			<div class=row>
+				<div></div>
+				<div>0</div>
+				<div>1</div>
+			</div>
+			<div class=row>
+				<div data-inicial>A</div>
+				<div></div>
+				<div>B</div>
+			</div>
+			<div class=row>
+				<div>B</div>
+				<div>C</div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div>C</div>
+				<div>D</div>
+				<div></div>
+			</div>
+			<div class=row>
+				<div data-accept>D</div>
+				<div>D</div>
+				<div>D</div>
+			</div>
+		</div>
+		<button onclick="convert('nfa')">Converter</button>
+		<div class=table id=tableDFA></div>
+	</div>
+</body>
+</html>
